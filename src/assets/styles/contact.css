@@ -1,0 +1,287 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("./fonts/AvenirNextLTPro-Regular.otf"),
+     url("./fonts/AvenirNextLTPro-BoldCn.otf") format("BoldCn");
+}
+main *{
+    font-family: Avenir;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edecec;
+}
+
+@media (min-width: 768px) {
+    .formContainer {
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #edecec;
+        z-index: 5;
+    }
+    
+    .formContainer form {
+        width: 80%;
+        min-height: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    .formContainer h2 {
+        width: 100%;
+        font-family: Avenir;
+        font-size: 2.2em;
+        font-weight: bolder;
+        letter-spacing: 0;
+        color: rgb(0, 0, 0);
+    }
+    
+    input {
+        background-color: rgba(219, 217, 217, 0.867);
+        color: #8A8A8A;
+        border: none;
+        width: 100%;
+        padding: 4% 3.5%;
+        margin: 2% 0;
+        border-radius: 5px;
+    }
+    
+    .smallInput {
+        width: 48%;
+        margin: 2% 0;
+    }
+    
+    textarea {
+        background-color: rgba(219, 217, 217, 0.867);
+        color: #8A8A8A;
+        border: none;
+        width: 100%;
+        height: 30%;
+        padding: 3.5%;
+        margin: 2% 0;
+        border-radius: 5px;
+        resize: none;
+    }
+    
+    .attachment {
+        width: 100%;
+        margin: 2% 0;
+    }
+    
+    .attachment input {
+        display: none;
+    }
+    
+    .attachment label span {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .attachment img {
+        padding: 2%;
+        background-color: #cecdcd;
+        border-radius: 5px;
+    }
+    
+    .attachment p {
+        padding: 1%;
+    }
+    
+    .submit {
+        width: 100%;
+        padding: 3.5%;
+        background-color: #5F6064;
+        border-radius: 5px;
+        border: none;
+        color: #E5E5E5;
+    }
+    
+    .socials {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 20%;
+    }
+    
+    .socials ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .socials ul a,
+    .socials ul li {
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        align-items: center;
+        width: 100%;
+        padding: 2% 0;
+        text-decoration: none;
+    }
+    
+    .socials p {
+        width: 60%;
+        display: block;
+    }
+    
+    .socialLogo {
+        width: 15%;
+    }
+    
+    .socials img {
+        justify-self: center;
+        height: 100%;
+    }
+    
+    .contactCover {
+        width: 60%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contactCover img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .formContainer{
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .formContainer form{
+        width: 60%;
+        min-height: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .formContainer h2{
+        width: 100%;
+        font-family: Avenir;
+        font-size: 2.2em;
+        font-weight: bolder;
+        letter-spacing: 0;
+        color: rgb(0, 0, 0);   
+    }
+    input {
+        background-color:rgba(219, 217, 217, 0.867);
+        color: #8A8A8A;
+        border: none;
+        width: 100%;
+        padding: 4% 3.5%;
+        margin: 2% 0;
+        border-radius: 5px;
+    }
+    .smallInput{
+        width: 48%;
+        margin: 2% 0;
+    }
+    textarea{
+        background-color:rgba(219, 217, 217, 0.867);
+        color: #8A8A8A;
+        border: none;
+        width: 100%;
+        height: 30%;
+        padding: 3.5%;
+        margin: 2% 0;
+        border-radius: 5px;
+        resize: none;
+    }
+    .attachment{
+        width: 100%;
+        margin: 2% 0;
+    }
+    .attachment input{
+        display: none;
+    }
+    .attachment label span{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .attachment img{
+        padding: 2%;
+        background-color: #cecdcd;
+        border-radius: 5px;
+    }
+    .attachment p{
+        padding: 1%;
+    }
+    .submit{
+        width: 100%;
+        padding: 3.5%;
+        background-color: #5F6064;
+        border-radius: 5px;
+        border: none;
+        color: #E5E5E5;
+    }
+    .socials{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 20%;
+    }
+    .socials ul{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .socials ul a,
+    .socials ul li{
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        align-items: center;
+        width: 100%;
+        padding: 2% 0;
+        text-decoration: none;
+    }
+    .socials p{
+        
+        width: 50%;
+        display: block;
+    }
+    .socialLogo{
+        width: 10%;
+    }
+    .socials img{
+        justify-self: center;
+        height: 100%;
+    }
+
+
+
+}

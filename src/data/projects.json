@@ -1,0 +1,37 @@
+[
+    {
+    "id": "0",
+    "title": "Complejo inclusivo Interurbano",
+    "cover":"../assets/images/projects/project-0.jpeg",
+    "description": "Frente al Río de La Plata, en el barrio de Retiro, se propone el desarrollo de un complejo edilicio que incorpore ne la zona a intervenir, una terminal fluvio marítima que se apoye en un conjunto de programas inclusivos y recreativos que trasciendan la función vial y permitan reflexionar sobre el borde del río y lo público en una misma operación. Está formado por una Estación Fluvial de pasageros, una Escuela de capacitación de adultos y un Mercado para artesanos. La propuesta presenta un diseño de formas puras que crecen en altura, respondiendo al deseo de liberar el entorno con el fin de incrementar el espacio público. Se proponen trespiezas cúbicas de cuatro niveles cada una, conformadas por una grilla que modula la composición total de la dársena y que a su vez, se encuentran vinculadas y contenidas por una gran cubierta de forma triangular",
+    "item1": "Planta Baja Pública"
+    },
+    {
+    "id": "1",
+    "title": "Vivienda Unifamiliar",
+    "cover":"../assets/images/projects/project-1.jpeg",
+    "description": "Se trata de un proyecto de vivienda ubicado en el exclusivo Arelauquen Golf & Polo Country Club, en San Carlos de Bariloche, Argentina",
+    "item1": "Planta Baja Pública"
+    },
+    {
+    "id": "2",
+    "title": "Vivienda Unifamiliar",
+    "cover":"../assets/images/projects/project-2.jpeg",
+    "description": "Se trata de un proyecto de vivienda ubicado en el exclusivo Arelauquen Golf & Polo Country Club, en San Carlos de Bariloche, Argentina",
+    "item1": "Planta Baja Pública"
+    },
+    {
+    "id": "3",
+    "title": "Vivienda Unifamiliar",
+    "cover":"../assets/images/projects/project-3.jpeg",
+    "description": "Se trata de un proyecto de vivienda ubicado en el exclusivo Arelauquen Golf & Polo Country Club, en San Carlos de Bariloche, Argentina",
+    "item1": "Planta Baja Pública"
+    },
+    {
+    "id": "4",
+    "title": "Vivienda Unifamiliar",
+    "cover":"../assets/images/projects/project-4.jpeg",
+    "description": "Se trata de un proyecto de vivienda ubicado en el exclusivo Arelauquen Golf & Polo Country Club, en San Carlos de Bariloche, Argentina",
+    "item1": "Planta Baja Pública"
+    }
+]

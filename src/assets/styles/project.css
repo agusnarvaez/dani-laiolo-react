@@ -1,0 +1,134 @@
+
+.projectPage * {
+    font-size: 12px;
+    font-family: 'Avenir';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.projectPage{
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 8vh 0.3vw 1vw 0.3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projectContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projectPageCover{
+    position: relative;
+    width: 100%;
+    padding: 1%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #E5E5E5;
+}
+.projectPageCover img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.projectPageTitle{
+    width: 100%;
+    position: absolute;
+    height: fit-content;
+    /* top: -100%; */
+    bottom: 0;
+    padding-top: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+    background: linear-gradient(
+        180deg, 
+        rgba(240, 240, 243, 0) 0%,
+        #E5E5E5 35%,
+        #E5E5E5 50%, 
+        #E5E5E5 70%
+        );
+    z-index: 10;
+}
+.projectPageTitle h2 {
+    font-size: 6em;
+    /* font-family: 'Avenir Next Ultra Light'; */
+    opacity: 25%;
+    font-weight: lighter;
+    text-align: left;
+    padding: 0 1vw 0 1vw;
+}
+
+.projectPageData {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 1vw 0 1vw;
+    
+}
+
+.projectPageData ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    max-height: 20vh;
+    margin: 2% 0 2% 0;
+}
+.projectPageData ul li{
+    
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 0 1% 0;
+}
+.leftInfo{
+    border-right: 1px solid #717171;
+}
+.middleInfo{
+    border-left: 1px solid #717171;
+    border-right: 1px solid #717171;
+}
+.rightInfo {
+    border-left: 1px solid #717171;
+    
+}
+.projectPageData ul li img{
+    height: 3%;
+    width: auto;
+    padding-bottom: 1%;
+}
+.projectPageData ul li p{
+    padding-top: 5%;
+    font-size: 1.2em;
+    color: #717171;
+}
+.projectPageDescription{
+    width: 100%;
+}
+
+.projectNavigation{
+    width: 100%;
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+}
+.projectNavigation a{
+    text-decoration: none;
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Avenir Next Ultra Light";
+    src: url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.eot");
+    src: url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ef8a424b69b83d12929ade2aae274d7.svg#Avenir Next Ultra Light") format("svg");
+}
+
+
+
+*{
+    font-size: 12px;
+    font-family: 'Avenir Next Ultra Light';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #422D05;   
+}
+.aboutPage{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.about{
+    width: 40%;
+    height: 100vh;
+    background-color: #E5E5E5;
+    padding: 5% 5% 7% 3%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.about h2{
+    font-size: 2em;
+    text-align: left;
+    align-self: flex-start;
+}
+.about p{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.aboutCover{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.aboutCover img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+    .aboutPage {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        background-color: #E5E5E5;
+    }
+
+    .about {
+        width: 40%;
+        height: 100vh;
+        background-color: #E5E5E5;
+        padding: 5% 10% 5% 2%;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+
+    }
+
+    .about h2 {
+        font-size: 3em;
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    .about p {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    
+
+}
